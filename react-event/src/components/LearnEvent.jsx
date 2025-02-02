@@ -1,10 +1,12 @@
 import React from 'react'
 
 const LearnEvent = () => {
+    // 1.
     const handleClick1 = (e) => {
         e.preventDefault()
         console.log("Button Clicked 1");
     }
+    // 2.
     const handleClick2 = (myId) => {
 
         console.log("Button Clicked 2", myId);
@@ -20,4 +22,4 @@ const LearnEvent = () => {
     )
 }
 
-export default LearnEvent
+export default LearnEvent;
