@@ -17,7 +17,7 @@ const LearnEvent = () => {
             <button onClick={handleClick1}> Click1</button>
             <br />
             {/* With Argument */}
-            <button onClick={(e) => handleClick2("myId")}>Click2</button>
+            <button onClick={(e) => handleClick2("Hi There")}>Click2</button>
         </div>
     )
 }
